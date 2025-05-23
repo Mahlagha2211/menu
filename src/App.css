@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.sidebar {
+  @apply w-[80px] h-15   bg-[#34495e] text-white  rounded-lg flex flex-col justify-center items-center text-[12px] p-1;
+}
+.sidebar img {
+  @apply h-8;
+}

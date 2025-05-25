@@ -10,6 +10,7 @@ import Mocktail from "./Mocktail";
 import Smoothie from "./Smoothie";
 import MilkShake from "./MilkShake";
 import Cake from "./Cake";
+import Ferape from "./Ferape";
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
             <Route path="smoothie" element={<Smoothie />} />
             <Route path="milkshake" element={<MilkShake />} />
             <Route path="cake" element={<Cake />} />
+            <Route path="ferape" element={<Ferape />} />
           </Route>
         </Route>
       </Routes>

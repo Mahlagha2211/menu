@@ -8,10 +8,10 @@ import { HiLogin } from "react-icons/hi";
 export default function Homepagelayout() {
   const [open, setopen] = useState(false);
   return open ? (
-    <div className="w-full h-screen relative bg-[#e1e2e1] flex flex-col items-center gap-y-10 pt-5">
+    <div className="w-full h-screen relative bg-[#e1e2e1] flex flex-col items-center gap-y-10 pt-[10px]">
       <div>
         <FaTimes
-          className="absolute top-[10px] left-[15px] cursor-pointer w-7 h-7"
+          className="absolute top-[15px] left-[15px] cursor-pointer w-7 h-7"
           onClick={() => setopen(false)}
         />
         <p className="text-2xl text-[#34495e] text-shadow-[1px_1px_0px_#263544]">
@@ -38,7 +38,7 @@ export default function Homepagelayout() {
   ) : (
     <div className="flex overflow-hidden w-full">
       <Sidebar />
-      <div className="grow pr-[100px]">
+      <div className="grow sm:pr-[100px] pr-[80px]">
         <Outlet context={{ setopen }} />
       </div>
     </div>

@@ -1,0 +1,327 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "hotCoffee",
+      "products": [
+        {
+          "id": 101,
+          "name": "موکا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 102,
+          "name": " لاته",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 103,
+          "name": "کاپوچینو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 104,
+          "name": "فلت وایب",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 105,
+          "name": "ماکیاتو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 106,
+          "name": "آمریکانو",
+          "image":"/coffee.jpg"
+        },
+        {
+          "id": 107,
+          "name": "ترک",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 108,
+          "name": "اسپرسو عربیکا",
+          "image":"/coffee.jpg"
+        },
+        {
+          "id": 109,
+          "name": "اسپرسو روبوستا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 110,
+          "name": "کورتادو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 111,
+          "name": "کن پانا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 112,
+          "name": "یونانی",
+          "image": "/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "iceCoffee",
+      "products": [
+        {
+          "id": 201,
+          "name": "آیس لاته",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 202,
+          "name": "آیس آمریکانو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 203,
+          "name": "کلد برو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 204,
+          "name": "آیس رومانو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 205,
+          "name": "آیس موکا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 206,
+          "name": "آفوگاتو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 207,
+          "name": "آیس ماچالاته",
+          "image":"/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "mocktail",
+      "products": [
+        {
+          "id": 301,
+          "name": "مامامیا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 302,
+          "name": "پشیکاتی",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 303,
+          "name": "موهیتو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 304,
+          "name": "بلو وارم",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 305,
+          "name": "اسکاچ برون",
+          "image": "/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "cake",
+      "products": [
+        {
+          "id": 401,
+          "name": "کروسان",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 402,
+          "name": "تارت توت فرنگی",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 403,
+          "name": "چیزکیک",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 404,
+          "name": "شکلات",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 405,
+          "name": "تارت کارامل",
+          "image": "/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "smoothie",
+      "products": [
+        {
+          "id": 501,
+          "name": "آنجلیکاپلام",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 502,
+          "name": "لیمو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 503,
+          "name": "نعناع",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 504,
+          "name": "بلوویو",
+          "image": "/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "frape",
+      "products": [
+        {
+          "id": 501,
+          "name": "گلدن گریپ",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 502,
+          "name": "کوکو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 503,
+          "name": "چاکلت هانی",
+          "image": "/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "milkShake",
+      "products": [
+        {
+          "id": 201,
+          "name": "شیک شکلات",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 202,
+          "name": "شیک وانیل",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 203,
+          "name": "شیک میوه ای",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 204,
+          "name": "شیک براونی",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 205,
+          "name": "شیک موز شکلات",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 206,
+          "name": "شیک بیسکوییت",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 207,
+          "name": "شیک کرانچی",
+          "image": "/coffee.jpg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "hotDrink",
+      "products": [
+        {
+          "id": 101,
+          "name": "موکا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 102,
+          "name": " لاته",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 103,
+          "name": "کاپوچینو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 104,
+          "name": "فلت وایب",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 105,
+          "name": "ماکیاتو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 106,
+          "name": "آمریکانو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 107,
+          "name": "ترک",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 108,
+          "name": "اسپرسو عربیکا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 109,
+          "name": "اسپرسو روبوستا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 110,
+          "name": "کورتادو",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 111,
+          "name": "کن پانا",
+          "image": "/coffee.jpg"
+        },
+        {
+          "id": 112,
+          "name": "یونانی",
+          "image": "/coffee.jpg"
+        }
+      ]
+    }
+  ]
+}

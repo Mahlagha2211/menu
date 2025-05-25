@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 
-export default function HotCoffee() {
+export default function Ferape() {
   const [food, setFood] = useState([]);
   useEffect(() => {
     fetch("/data/db.json")
       .then((res) => res.json())
-      .then((data) => setFood(data.categories[0].products));
+      .then((data) => setFood(data.categories[5].products));
   }, []);
   return (
     <div className="mt-6 px-2 space-y-4">
       <div className="flex items-baseline text-white  gap-x-6">
-        <p className="sm:text-[25px] text-[20px]">قهوه گرم</p>
+        <p className="sm:text-[25px] text-[20px]">فراپه</p>
         <div className="h-[1px] bg-[#727272] grow"></div>
       </div>
       <div className="w-full bg-[#283746] shadow-[0_0_2px_black] grid grid-cols-1 gap-8 lg:grid-cols-3 items:grid-cols-2 p-4 rounded-lg">

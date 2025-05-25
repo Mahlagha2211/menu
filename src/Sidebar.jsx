@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function Sidebar() {
   const [x, setx] = useState(false);
   return (
-    <div className="bg-[#E1E2E1] min-h-screen  fixed right-0 top-0 w-[100px] flex flex-col p-2 gap-y-2">
+    <div className="bg-[#E1E2E1] min-h-screen  fixed right-0 top-0  sm:w-[100px] w-[80px] flex flex-col p-2 gap-y-2">
       <NavLink
         to="/"
         className={({ isActive }) =>
@@ -124,6 +124,21 @@ export default function Sidebar() {
               alt=""
             />
             <p>کیک</p>
+          </>
+        )}
+      </NavLink>
+       <NavLink
+        to="/items/ferape"
+        className={({ isActive }) => `sidebar  ${isActive ? "!bg-black" : ""}`}
+      >
+        {({ isActive }) => (
+          <>
+            <img
+              src="/icon/ferape.png"
+              className={`${isActive ? "hidden" : ""}`}
+              alt=""
+            />
+            <p>فراپه</p>
           </>
         )}
       </NavLink>

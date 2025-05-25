@@ -12,10 +12,10 @@ export default function ItemsLayout() {
   }, []);
   return (
     <div className="flex flex-col  w-full min-h-screen bg-[#34495e]">
-      <div className="w-full h-28 flex md:justify-around justify-between  bg-black"  data-aos="fade-down">
-        <img src="/boy.png" alt="" />
-        <img src="/logo.png" className="md:w-40 w-28" alt="" />
-        <img src="/girl.png" alt="" />
+      <div className="w-full  flex md:justify-around items-center justify-between bg-black"  data-aos="fade-down">
+        <img src="/boy.png" className="w-20 max-[400px]:w-14" alt="" />
+        <img src="/logo.png" className="w-32 max-[400px]:w-20" alt="" />
+        <img src="/girl.png" className="w-20 max-[400px]:w-14" alt="" />
       </div>
       <div className="">
         <Outlet />

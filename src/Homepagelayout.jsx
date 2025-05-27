@@ -19,7 +19,7 @@ export default function Homepagelayout() {
         </p>
       </div>
       <div>
-        <img src="/lavella.png" className="w-64" alt="" />
+        <img src="/lavella1.png" className="w-64" alt="" />
       </div>
       <div className="w-full px-5 space-y-1">
         <div className="flex items-center cursor-pointer rounded-lg p-2 gap-x-3 bg-[#34495e] text-white">

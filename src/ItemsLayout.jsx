@@ -17,7 +17,7 @@ export default function ItemsLayout() {
         <img src="/logo.png" className="w-32 max-[400px]:w-20" alt="" />
         <img src="/girl.png" className="w-20 max-[400px]:w-14" alt="" />
       </div>
-      <div className="">
+      <div className="h-full">
         <Outlet />
       </div>
     </div>

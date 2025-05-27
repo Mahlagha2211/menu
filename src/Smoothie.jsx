@@ -1,17 +1,28 @@
-import { useEffect, useState } from "react";
-import React from "react";
+import { useState } from "react";
 
+import { useQuery } from "@tanstack/react-query";
+import { BeatLoader } from "react-spinners";
 import Modal from "react-modal";
 
 export default function Smoothie() {
-  const [food, setFood] = useState([]);
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
   const [selecteditem, setSelecteditem] = useState(null);
-  useEffect(() => {
-    fetch("/data/db.json")
-      .then((res) => res.json())
-      .then((data) => setFood(data.categories[4].products));
-  }, []);
+  const fechedfood = async () => {
+    const res = await fetch("/data/db.json");
+    const data = await res.json();
+    return data.categories[4].products;
+  };
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["food"],
+    queryFn: fechedfood,
+  });
+
+  if (isLoading)
+    return (
+      <div className="flex items-center justify-center  mt-20">
+        <BeatLoader size={15} />
+      </div>
+    );
   return (
     <div className="mt-6 px-2 space-y-4">
       <div className="flex items-baseline text-white  gap-x-6">
@@ -19,7 +30,7 @@ export default function Smoothie() {
         <div className="h-[1px] bg-[#727272] grow"></div>
       </div>
       <div className="w-full bg-[#283746] shadow-[0_0_2px_black] grid grid-cols-1 gap-8 lg:grid-cols-3 items:grid-cols-2 p-4 rounded-lg">
-        {food.map((item) => (
+        {data.map((item) => (
           <div key={item.id} className="space-y-3 cursor-pointer">
             <div
               onClick={() => {

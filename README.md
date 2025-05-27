@@ -3,6 +3,8 @@
 This is a **digital menu** web application for a cafe, built using **React**, **TailwindCSS**, and **TanStack Query**. The application features a **fixed category sidebar** and a **dynamic content area** that updates based on the selected category. Data is sourced from a local **JSON file** located in the `public/data` folder.
 
 ---
+## 🔥 demo
+You can see the live demo of the website [here](https://menu-nu-three.vercel.app/).
 
 ## 📚 Key Learnings
 
@@ -196,3 +198,14 @@ This project provided valuable hands-on experience with:
 - Data fetching and error handling using TanStack Query.
 - Managing data with a local JSON file (db.json) and rendering it dynamically.
 - Creating a responsive design that works well across different devices and screen sizes.
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Mahlagha2211/Menu.git
+   cd Menu
+   npm install
+   npm run dev
+
